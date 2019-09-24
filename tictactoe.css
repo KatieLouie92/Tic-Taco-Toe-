@@ -1,0 +1,33 @@
+table {
+    width: 400px;
+    height: 400px;
+    border-style: hidden;
+    margin: 0 auto 0 auto; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+}
+td {
+    width: 100px;
+    height: 100px;
+}
+td[class="1"] {
+    /* width: 100px; */
+    /* height: 100px; */
+    border-style: hidden solid solid hidden;
+}
+td[class="2"] {
+    /* width:100px; */
+    /* height: 100px; */
+    border-style: hidden hidden solid hidden;
+}
+td[class="3"] {
+    /* width: 100px; */
+    /* height: 100px; */
+    border-style: hidden solid hidden hidden;
+}   
+td[class="4"] {
+    border-style: hidden solid hidden hidden;
+}
